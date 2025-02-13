@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>serial_reader</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for reading and processing serial PWM data</description>
+  <maintainer email="your_email@example.com">your_name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>odrive_can</depend>
+
+  <exec_depend>python3-serial</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

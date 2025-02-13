@@ -1,0 +1,27 @@
+
+
+teleop_twist_joy_node:
+  ros__parameters:
+    # Linear axis mappings
+    axis_linear:
+      x: 1
+      y: 0
+      z: -1
+    scale_linear:
+      x: 1.4
+      y: 0.0
+      z: 0.0
+
+    # Angular axis mappings
+    axis_angular:
+      yaw: 2
+      pitch: -1
+      roll: -1
+    scale_angular:
+      yaw: 1.5       # <-- Increase from 0.4 to 1.5
+      pitch: 0.0
+      roll: 0.0
+
+    # Button mappings
+    enable_button: 5
+    enable_turbo_button: 7
